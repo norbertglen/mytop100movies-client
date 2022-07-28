@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+html {
+  font-size: 16px;
+}
+
+.wrapper {
+  max-width: 800px;
+  margin: 4rem auto;
+}
+
+.app-header {
+  background-color: #282c34;
+  height: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  padding: 20px;
+  cursor: pointer;
+}
+/*# sourceMappingURL=App.css.map */
