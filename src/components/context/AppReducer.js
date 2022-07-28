@@ -4,7 +4,10 @@ export const AppReducer = (state, action) => {
         case 'INITIALIZE_DATA':
             const movies = []
             console.log(action)
-            action.payload.forEach((app) => movies.unshift(app))
+            if (action.payload) {
+                action.payload.forEach((app) => movies.unshift(app))
+            }
+
             return {
                 movies
             }
