@@ -15,7 +15,7 @@ const MovieList = () => {
             <thead>
                 <tr>
                     <th className={styles.title}>Movie Title</th>
-                    <th className={styles.rating}>Rating</th>
+                    <th className={styles.rating}>Movie Rating</th>
                     <th className={styles.time}>Created</th>
                     <th className={styles.time}>Last Update</th>
                     <th className={styles.action}>Actions</th>
